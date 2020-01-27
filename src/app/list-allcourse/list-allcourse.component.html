@@ -1,0 +1,19 @@
+<table class="table table-hover" >
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">DersinAdı</th>
+      <th scope="col">DersinÖğretmeni</th>
+      <th scope="col" *ngIf="(ogrenci==true)">Ekle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let obj of dataCourses;let i=index">
+      <th scope="row">{{i+1}}</th>
+      <td>{{obj.Title}}</td>
+      <td>{{obj.Teacher}}</td>
+      <td><button type="button" class="btn btn-secondary"(click)="getReq(obj.key,obj.Teacher,obj.Title)" *ngIf="(ogrenci==true)">Gönder </button> </td>
+      <td><button type="button" class="btn btn-secondary"(click)="remove(obj.key)" *ngIf="(admin==true)">Sil </button> </td>
+    </tr>
+  </tbody>
+</table>

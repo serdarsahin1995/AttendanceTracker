@@ -1,0 +1,22 @@
+  <table class="table table-hover"*ngIf="(admin==true) || (ogrencisleri==true)" >
+  <thead>
+    <tr>
+     
+    </tr>
+  </thead>
+  <tbody>
+  <table *ngFor="let obj of listArray;let i=index" >
+       <th scope="row">{{"istek "}}{{i+1}}
+
+          <tr *ngFor="let z of obj;let i=index">
+            
+        <div id="dersler" *ngIf="i>0 && i%2!=0">{{z}} <button type="button" class="btn btn-secondary"  *ngIf="(i!=0) && (i!=1)" (click)="applyRequest(obj[0],obj[i-1],obj[1])" >Ders'e kayıt et </button></div>
+    </tr>
+
+       </th>
+
+  </table>
+  </tbody>
+</table>
+
+

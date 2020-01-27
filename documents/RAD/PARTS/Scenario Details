@@ -1,0 +1,54 @@
+admin onay senaryosu:
+	düzenleme onay senaryosu
+		herhangi bir ekleme çıkarma onayı
+		
+	silme onay senaryosu
+		öğrenci dersten silme
+		öğrenci databaseten silme
+	
+	ders onay senaryosu
+		öğretmen onay senaryosu
+		öğrenci onay senaryosu
+
+Öğrenci işleri senaryosu:
+	öğrenci işleri öğrenci bilgisi düzenleme senaryosu
+	
+	öğrenci derse ekleme senaryosu
+	
+	öğrenci silme senaryosu
+	
+	ders açma senoryosu
+		derse öğretmen ekle
+		derse öğrenci ekleme
+		
+	öğrenciden gelen ders requestinin onay senaryosu
+	
+	öğretmenden gelen requesti onaylama senaryosu
+		
+öğretmen senayoları:
+	yoklama açma senaryosu
+		yoklamaya isim verme
+		yoklama tarihi belirleme (günümüz ve ilerisine izin verilecek)
+		yoklama kriterleri (present, absend, özürlü)
+		
+	öğrenci işlerine derse beni ekle requesti yollama 
+	
+	yoklama alma senaryosu
+		öğrenciye yoklama tanımlama (present, absend, özürlü)
+	
+	derse göre öğrenci listesi görüntüleme
+		dersteki öğrencilerin katılım yüzdelerini görme
+	
+	
+öğrenci senaryoları
+	öğrenci ders alma senaryosu
+		ders listesi görüntüleme
+		ders için request atma
+	
+	kendi profilini görüntüleme
+	
+	kendi ders listesini göreme
+	
+	tarihlere göre kaçırdığı dersleri görme
+	
+	yüzdesel olarak ders takibi görme

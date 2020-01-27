@@ -1,0 +1,24 @@
+<table class="table">
+	<thead>
+		<tr>
+			<th scope="col">#</th>
+			<th scope="col">Attendance Name</th>
+			<th scope="col">Date</th>
+			<th scope="col">Attendance Ratio</th>
+			<th scope="col"></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr *ngFor="let obj of dataCourses;let i=index">
+			<th scope="row">{{ i + 1 }}</th>
+			<td>{{ obj.Title }}</td>
+			<td>12.12.2019</td>
+			<td>100%</td>
+			<td>
+				<a href="editTakedAttendance" target="_blank" rel="noopener noreferrer">Edit</a>
+				&nbsp;|&nbsp;
+				<a href="" target="_blank" rel="noopener noreferrer">Delete</a>
+			</td>
+		</tr>
+	</tbody>
+</table>

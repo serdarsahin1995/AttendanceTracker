@@ -1,0 +1,41 @@
+senaryo yazılacak
+	- kullanıcı rollerine
+	- sistem özelliklerine
+	- 
+	
+hoca yoklama aldığında, ders için öğrenciye bildirim gitmesi
+
+öğretmen sayfasında
+	- yoklamaya isiö verme
+	- açıklama
+	- visibility (hide from student (göster ya da gösterme))
+	- status set (present, absent, excused, late, ve artırılabilir olmalı)
+		- herbiri için puanlama
+	
+	- yoklamanın
+	 	- raporunu alma
+	 	- dışa aktarma
+	
+	
+sistemde kayıtlı olan dersler, hocalar ve öğrenciler üzerine hocaları ve öğrencileri tanımlayabiliriz
+
+	- öğrenci eklemeyi hoca yapamamalı
+	
+öğrenci bu dersi almak için istek atabilmeli
+	- öğrenci işlerine gidecek öğrenci işleri onaylaycak
+	
+	
+admin kullanıcısı herşeyi onaylamalı 
+	database erişimi sadece adminde olmalı 
+	- erişim
+	- düzenleme
+	- silme
+	- onaylama
+	
+add session
+	- tarih
+	- hangi saat aralığı
+	- tekrar zamanlar(her çarşamba tekrar et gibi)
+	
+	
+haftaya senaryolar yazılacak
